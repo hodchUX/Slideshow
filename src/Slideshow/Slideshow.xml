@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="Slideshow.widget.Slideshow" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>Slideshow</name>
+    <description>Landing page full screen slideshow</description>
+
+    <icon />
+
+    <properties>
+        <property key="img1" type="image">
+            <caption>Image 1</caption>
+            <category>Page 1</category>
+            <description>Image to be displayed</description>
+        </property>
+        <property key="header1" type="string">
+            <caption>Header 1</caption>
+            <category>Page 1</category>
+            <description>Header to be displayed</description>
+        </property>
+        <property key="content1" type="string" multiline="true">
+            <caption>Content 1</caption>
+            <category>Page 1</category>
+            <description>Content to be displayed</description>
+        </property>
+        <property key="mf1" type="microflow" required="true">
+            <caption>Microflow 1</caption>
+            <category>Page 1</category>
+            <description>The microflow to execute on click.</description>
+            <returnType type="Boolean" />
+        </property>
+        <property key="mf1Caption" type="string">
+            <caption>Microflow 1 Caption</caption>
+            <category>Page 1</category>
+            <description>Caption for Microflow</description>
+        </property>
+        <property key="img2" type="image">
+            <caption>Image 2</caption>
+            <category>Page 2</category>
+            <description>Image to be displayed</description>
+        </property>
+        <property key="header2" type="string">
+            <caption>Header 2</caption>
+            <category>Page 2</category>
+            <description>Header to be displayed</description>
+        </property>
+        <property key="content2" type="string" multiline="true">
+            <caption>Content 2</caption>
+            <category>Page 2</category>
+            <description>Content to be displayed</description>
+        </property>
+        <property key="mf2" type="microflow" required="true">
+            <caption>Microflow 2</caption>
+            <category>Page 2</category>
+            <description>The microflow to execute on click.</description>
+            <returnType type="Boolean" />
+        </property>
+        <property key="mf2Caption" type="string">
+            <caption>Microflow 2 Caption</caption>
+            <category>Page 2</category>
+            <description>Caption for Microflow</description>
+        </property>
+        <property key="img3" type="image">
+            <caption>Image 3</caption>
+            <category>Page 3</category>
+            <description>Image to be displayed</description>
+        </property>
+        <property key="header3" type="string">
+            <caption>Header 3</caption>
+            <category>Page 3</category>
+            <description>Header to be displayed</description>
+        </property>
+        <property key="content3" type="string" multiline="true">
+            <caption>Content 3</caption>
+            <category>Page 3</category>
+            <description>Content to be displayed</description>
+        </property>
+        <property key="mf3" type="microflow" required="true">
+            <caption>Microflow 3</caption>
+            <category>Page 3</category>
+            <description>The microflow to execute on click.</description>
+            <returnType type="Boolean" />
+        </property>
+        <property key="mf3Caption" type="string">
+            <caption>Microflow 3 Caption</caption>
+            <category>Page 3</category>
+            <description>Caption for Microflow</description>
+        </property>
+        <property key="img4" type="image">
+            <caption>Image 4</caption>
+            <category>Page 4</category>
+            <description>Image to be displayed</description>
+        </property>
+        <property key="header4" type="string">
+            <caption>Header 4</caption>
+            <category>Page 4</category>
+            <description>Header to be displayed</description>
+        </property>
+        <property key="content4" type="string" multiline="true">
+            <caption>Content 4</caption>
+            <category>Page 4</category>
+            <description>Content to be displayed</description>
+        </property>
+        <property key="mf4" type="microflow" required="true">
+            <caption>Microflow 4</caption>
+            <category>Page 4</category>
+            <description>The microflow to execute on click.</description>
+            <returnType type="Boolean" />
+        </property>
+        <property key="mf4Caption" type="string">
+            <caption>Microflow 4 Caption</caption>
+            <category>Page 4</category>
+            <description>Caption for Microflow</description>
+        </property>
+        <property key="img5" type="image">
+            <caption>Image 5</caption>
+            <category>Page 5</category>
+            <description>Image to be displayed</description>
+        </property>
+        <property key="header5" type="string">
+            <caption>Header 5</caption>
+            <category>Page 5</category>
+            <description>Header to be displayed</description>
+        </property>
+        <property key="content5" type="string" multiline="true">
+            <caption>Content 5</caption>
+            <category>Page 5</category>
+            <description>Content to be displayed</description>
+        </property>
+        <property key="mf5" type="microflow" required="true">
+            <caption>Microflow 5</caption>
+            <category>Page 5</category>
+            <description>The microflow to execute on click.</description>
+            <returnType type="Boolean" />
+        </property>
+        <property key="mf5Caption" type="string">
+            <caption>Microflow 5 Caption</caption>
+            <category>Page 5</category>
+            <description>Caption for Microflow</description>
+        </property>
+    </properties>
+</widget>
+
